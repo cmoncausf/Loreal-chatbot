@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>L'Oréal — Smart Routine & Product Advisor</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="brand">
+      <div class="logo">
+        <img src="Loreal-logo.png" alt="L'Oréal Logo" class="logo-img" />
+      </div>
+      <h1 class="title">Smart Routine & Product Advisor</h1>
+    </header>
+
+    <section class="chat-wrap">
+      <div id="chat" class="chat">
+        <!-- messages will be appended here -->
+        <div class="message system">Welcome! Ask me about any L'Oréal product or routine.</div>
+      </div>
+
+      <form id="inputForm" class="input-row" autocomplete="off">
+        <input id="prompt" type="text" placeholder="Ask me about any L’Oréal product or routine…" aria-label="Ask a question" />
+        <button type="submit" title="Send" aria-label="Send">▶</button>
+      </form>
+    </section>
+    
+    <footer class="site-footer">
+      <div>© 2025 L'Oréal. All rights reserved.</div>
+      <nav class="links">
+        <a href="https://www.loreal.com/en/group/global-privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>
+        <a href="https://www.loreal.com/en/group/global-terms-of-use/" target="_blank" rel="noopener">Terms of Use</a>
+        <a href="https://www.loreal.com/en/usa/articles/contact-us/consumer-inquiries-usa/" target="_blank" rel="noopener">Contact</a>
+      </nav>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
